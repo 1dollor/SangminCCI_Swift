@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "878D1367AB645390ED704EAC95424B1692DFE817",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "878D1367AB645390ED704EAC95424B1692DFE817" : 9223372036854775807,
+    "37B4FB14189B85AB569E1B7D2CAF81309CFE8A37" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F4498FE4-91BC-4DC7-AA19-F23469A7C151",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "878D1367AB645390ED704EAC95424B1692DFE817" : "AnimalShelter\/",
+    "37B4FB14189B85AB569E1B7D2CAF81309CFE8A37" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AnimalShelter",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AnimalShelter.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HahnSangmin\/SangminCCI.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "37B4FB14189B85AB569E1B7D2CAF81309CFE8A37"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HahnSangmin\/AnimalShelter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "878D1367AB645390ED704EAC95424B1692DFE817"
+    }
+  ]
+}

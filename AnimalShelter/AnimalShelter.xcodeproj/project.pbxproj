@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CD2DA31F2AE7D40032F5FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CD2DA21F2AE7D40032F5FE /* main.swift */; };
+		18CD2DAA1F2AE7E20032F5FE /* AnimalShelter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CD2DA91F2AE7E20032F5FE /* AnimalShelter.swift */; };
+		18CD2DAC1F2AEA1E0032F5FE /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CD2DAB1F2AEA1E0032F5FE /* List.swift */; };
+		18CD2DAE1F2AEA770032F5FE /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CD2DAD1F2AEA770032F5FE /* Queue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18CD2D9D1F2AE7D40032F5FE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18CD2D9F1F2AE7D40032F5FE /* AnimalShelter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AnimalShelter; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CD2DA21F2AE7D40032F5FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		18CD2DA91F2AE7E20032F5FE /* AnimalShelter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalShelter.swift; sourceTree = "<group>"; };
+		18CD2DAB1F2AEA1E0032F5FE /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = List.swift; path = ../List.swift; sourceTree = "<group>"; };
+		18CD2DAD1F2AEA770032F5FE /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CD2D9C1F2AE7D40032F5FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CD2D961F2AE7D40032F5FE = {
+			isa = PBXGroup;
+			children = (
+				18CD2DA11F2AE7D40032F5FE /* AnimalShelter */,
+				18CD2DA01F2AE7D40032F5FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CD2DA01F2AE7D40032F5FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CD2D9F1F2AE7D40032F5FE /* AnimalShelter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CD2DA11F2AE7D40032F5FE /* AnimalShelter */ = {
+			isa = PBXGroup;
+			children = (
+				18CD2DAB1F2AEA1E0032F5FE /* List.swift */,
+				18CD2DA21F2AE7D40032F5FE /* main.swift */,
+				18CD2DA91F2AE7E20032F5FE /* AnimalShelter.swift */,
+				18CD2DAD1F2AEA770032F5FE /* Queue.swift */,
+			);
+			path = AnimalShelter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CD2D9E1F2AE7D40032F5FE /* AnimalShelter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CD2DA61F2AE7D40032F5FE /* Build configuration list for PBXNativeTarget "AnimalShelter" */;
+			buildPhases = (
+				18CD2D9B1F2AE7D40032F5FE /* Sources */,
+				18CD2D9C1F2AE7D40032F5FE /* Frameworks */,
+				18CD2D9D1F2AE7D40032F5FE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalShelter;
+			productName = AnimalShelter;
+			productReference = 18CD2D9F1F2AE7D40032F5FE /* AnimalShelter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CD2D971F2AE7D40032F5FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = N4046;
+				TargetAttributes = {
+					18CD2D9E1F2AE7D40032F5FE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 42564F9S2Q;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18CD2D9A1F2AE7D40032F5FE /* Build configuration list for PBXProject "AnimalShelter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18CD2D961F2AE7D40032F5FE;
+			productRefGroup = 18CD2DA01F2AE7D40032F5FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CD2D9E1F2AE7D40032F5FE /* AnimalShelter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CD2D9B1F2AE7D40032F5FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CD2DA31F2AE7D40032F5FE /* main.swift in Sources */,
+				18CD2DAA1F2AE7E20032F5FE /* AnimalShelter.swift in Sources */,
+				18CD2DAC1F2AEA1E0032F5FE /* List.swift in Sources */,
+				18CD2DAE1F2AEA770032F5FE /* Queue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18CD2DA41F2AE7D40032F5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18CD2DA51F2AE7D40032F5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18CD2DA71F2AE7D40032F5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 42564F9S2Q;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18CD2DA81F2AE7D40032F5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 42564F9S2Q;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CD2D9A1F2AE7D40032F5FE /* Build configuration list for PBXProject "AnimalShelter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CD2DA41F2AE7D40032F5FE /* Debug */,
+				18CD2DA51F2AE7D40032F5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CD2DA61F2AE7D40032F5FE /* Build configuration list for PBXNativeTarget "AnimalShelter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CD2DA71F2AE7D40032F5FE /* Debug */,
+				18CD2DA81F2AE7D40032F5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CD2D971F2AE7D40032F5FE /* Project object */;
+}
