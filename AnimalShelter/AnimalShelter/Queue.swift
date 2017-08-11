@@ -29,17 +29,26 @@ class Queue: List {
     var catCount = 0
     var dogCount = 0
     
-    func enQueueAnimal(list: List, animal: Animal) {
+    override init() {
         
-        if list.head?.nextAnimal.nextAnimal == nil {
+    }
+        
+    func enQueueAnimal(animal: Animal) {
+        if head?.nextAnimal.nextAnimal == nil {
             first = cur
             cur?.animal.petNumber = 1
         }
-        
-        list.addList(node: cur!, animal: animal)
+        last = cur
+        addList(node: cur!, animal: animal)
     }
     
-    func deQueueCat() {
+    func deQueueCat() -> Cat? {
+        let mirrorCat = Mirror.init(reflecting: cur?.animal ?? Animal())
+        
+        if mirrorCat.subjectType == Cat.self {
+            return cur?.animal as? Cat
+        }
+        
         
     }
     

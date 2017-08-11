@@ -10,6 +10,7 @@ import Foundation
 
 class Node {
     var animal = Animal()
+    var befor = Animal()
     var nextAnimal = Node()
 }
 
